@@ -89,7 +89,8 @@ UPDATE layoffs_staging2
 SET industry = 'Crypto'
 WHERE industry LIKE 'Crypto%';
 
-#Fix United States. to United StatesSELECT DISTINCT country 
+#Fix United States. to United States
+SELECT DISTINCT country 
 FROM layoffs_staging2;
 
 UPDATE layoffs_staging2
