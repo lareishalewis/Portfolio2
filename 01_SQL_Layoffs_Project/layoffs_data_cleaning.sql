@@ -53,7 +53,7 @@ SELECT *
 FROM duplicate_cte
 WHERE row_num > 1;
 
--- Five duplicate rows were identified in the full 2,361-row dataset.
+-- Five duplicate rows were identified in the full 2,361 row dataset.
 
 
 -- ============================================
