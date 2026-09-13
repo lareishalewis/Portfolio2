@@ -37,9 +37,9 @@ This project includes data cleaning, transformation, validation, SQL analysis, b
 
 Originally completed as a guided SQL project and later revisited and expanded to strengthen my SQL and analytical reasoning skills.
 
-During the project refresh, I identified an incomplete database import, reloaded and validated the full 2,361-record dataset, strengthened the data-cleaning process, and performed exploratory analysis using aggregations, CTEs, window functions, ranking, and conditional logic.
+During the project refresh, I identified an incomplete database import, reloaded and validated the full 2,361 record dataset, strengthened the data cleaning process, and performed exploratory analysis using aggregations, CTEs, window functions, ranking, and conditional logic.
 
-I also added original analysis of industry layoff trends and investigated the structure of the funding data to avoid double-counting cumulative funding values.
+I also added original analysis of industry layoff trends and investigated the structure of the funding data to avoid double counting cumulative funding values.
 
 [View Project](01_SQL_Layoffs_Project/)
 
@@ -48,9 +48,9 @@ I also added original analysis of industry layoff trends and investigated the st
 ### Credit Default Prediction
 **Tools:** Python, Pandas, Scikit-learn
 
-Graduate-level machine learning project exploring customer credit data and classification techniques to predict credit default.
+Graduate level machine learning project exploring customer credit data and classification techniques to predict credit default.
 
-This project reflects prior academic experience with Python-based data preparation, predictive modeling, model evaluation, and ensemble methods.
+This project reflects prior academic experience with Python based data preparation, predictive modeling, model evaluation, and ensemble methods.
 
 ---
 
@@ -78,7 +78,7 @@ These projects represent earlier academic experience, while my current portfolio
 
 ## About This Portfolio
 
-This portfolio documents both previous academic work and current hands-on projects as I continue developing practical analytics skills.
+This portfolio documents both previous academic work and current hands on projects as I continue developing practical analytics skills.
 
 My current emphasis is on building projects that demonstrate the full data workflow:
 
