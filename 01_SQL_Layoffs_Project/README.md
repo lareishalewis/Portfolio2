@@ -94,11 +94,11 @@ After observing elevated layoffs from October 2022 through February 2023, I anal
 
 The highest totals were:
 
-Consumer — 32,253
-Other — 29,717
-Retail — 26,019
-Healthcare — 16,752
-Hardware — 13,828
+- Consumer — 32,253
+- Other — 29,717
+- Retail — 26,019
+- Healthcare — 16,752
+- Hardware — 13,828
 
 Healthcare and Hardware entered the top five during this period even though they were not among the top five industries across the complete dataset.
 
@@ -108,34 +108,34 @@ I used conditional aggregation with CASE statements to compare industry layoffs 
 
 The largest increases were:
 
-Retail — +19,826
-Consumer — +16,256
-Healthcare — +15,058
-Transportation — +15,027
-Finance — +12,684
+- Retail — +19,826
+- Consumer — +16,256
+- Healthcare — +15,058
+- Transportation — +15,027
+- Finance — +12,684
 
 This helped identify which industries contributed most to the sharp increase in layoffs between the two years.
 
 ## Key Findings
 
-Amazon had the highest total layoffs across all reported events.
-Google had the largest single reported layoff event with 12,000 employees.
-Consumer had the highest total layoffs by industry.
-The United States had the highest total layoffs by country.
-Among complete years, 2022 had the highest total layoffs with 160,661.
-January 2023 had the highest monthly layoffs with 84,714.
-Cumulative layoffs reached 383,159 by March 2023.
-The company with the highest annual layoffs changed each year:
-2020 — Uber
-2021 — ByteDance
-2022 — Meta
-2023 — Google through March 6
-Post-IPO companies accounted for the highest total layoffs by company stage.
+- Amazon had the highest total layoffs across all reported events.
+- Google had the largest single reported layoff event with 12,000 employees.
+- Consumer had the highest total layoffs by industry.
+- The United States had the highest total layoffs by country.
+- Among complete years, 2022 had the highest total layoffs with 160,661.
+- January 2023 had the highest monthly layoffs with 84,714.
+- Cumulative layoffs reached 383,159 by March 2023.
+- The company with the highest annual layoffs changed each year:
+  - 2020 — Uber
+  - 2021 — ByteDance
+  - 2022 — Meta
+  - 2023 — Google through March 6
+- Post-IPO companies accounted for the highest total layoffs by company stage.
 
 ## Project Files
 
-layoffs_data_cleaning.sql — data import validation, cleaning, transformation, and quality checks
-layoffs_eda.sql — exploratory analysis, rankings, trends, funding validation, and additional analysis
+- layoffs_data_cleaning.sql — data import validation, cleaning, transformation, and quality checks
+- layoffs_eda.sql — exploratory analysis, rankings, trends, funding validation, and additional analysis
 
 ## Acknowledgment
 
