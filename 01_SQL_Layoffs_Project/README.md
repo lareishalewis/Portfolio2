@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project explores global company layoff data using MySQL. The project began as a guided SQL exercise based on Alex The Analyst’s data-cleaning tutorial and was later revisited, corrected, expanded, and documented as part of strengthening my SQL and data-analysis skills.
+This project explores global company layoff data using MySQL. The project began as a guided SQL exercise based on Alex The Analyst’s data cleaning tutorial and was later revisited, corrected, expanded, and documented as part of strengthening my SQL and data analysis skills.
 
-The completed workflow includes raw data validation, duplicate removal, data standardization, missing-value handling, date conversion, exploratory analysis, window functions, ranking, conditional aggregation, and additional original analysis.
+The completed workflow includes raw data validation, duplicate removal, data standardization, missing value handling, date conversion, exploratory analysis, window functions, ranking, conditional aggregation, and additional original analysis.
 
 ## Tools
 
@@ -53,7 +53,7 @@ The cleaning process included:
 - Standardizing country names
 - Converting the date column from text to a SQL `DATE` datatype
 - Converting blank industry values to `NULL`
-- Using a self-join to recover missing industry values when another record for the same company contained the information
+- Using a self join to recover missing industry values when another record for the same company contained the information
 - Removing 361 records where both total layoffs and percentage laid off were missing
 - Performing final validation checks for duplicates, standardized values, row counts, and date range
 
@@ -76,9 +76,9 @@ The analysis examined questions such as:
 
 ## Funding Data Validation
 
-While analyzing company funding, I found that `funds_raised_millions` often represented a cumulative company-level value that repeated across multiple layoff records.
+While analyzing company funding, I found that `funds_raised_millions` often represented a cumulative company level value that repeated across multiple layoff records.
 
-Using `SUM(funds_raised_millions)` would therefore double-count funding for companies appearing multiple times.
+Using `SUM(funds_raised_millions)` would therefore double count funding for companies appearing multiple times.
 
 I compared the number of layoff records, distinct funding values, minimum funding, maximum funding, and summed funding for several companies. I also reviewed WeWork’s funding values over time and found that the reported amount increased cumulatively.
 
