@@ -56,7 +56,7 @@ ORDER BY total_layoffs DESC
 LIMIT 10;
 
 -- Amazon had the highest total layoffs across all reported events.
--- This differs from the single-event ranking because some companies had
+-- This differs from the single event ranking because some companies had
 -- multiple layoff rounds that increased their cumulative total.
 
 
