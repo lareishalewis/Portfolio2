@@ -82,10 +82,7 @@ Using `SUM(funds_raised_millions)` would therefore double-count funding for comp
 
 I compared the number of layoff records, distinct funding values, minimum funding, maximum funding, and summed funding for several companies. I also reviewed WeWork’s funding values over time and found that the reported amount increased cumulatively.
 
-Based on that validation, I used:
-
-```sql
-MAX(funds_raised_millions) instead of SUM() when comparing company funding levels.
+Based on that validation, I used MAX(funds_raised_millions) instead of SUM() when comparing company funding levels.
 
 ## Additional Analysis
 
@@ -119,7 +116,8 @@ Finance — +12,684
 
 This helped identify which industries contributed most to the sharp increase in layoffs between the two years.
 
-Key Findings
+## Key Findings
+
 Amazon had the highest total layoffs across all reported events.
 Google had the largest single reported layoff event with 12,000 employees.
 Consumer had the highest total layoffs by industry.
@@ -133,9 +131,12 @@ The company with the highest annual layoffs changed each year:
 2022 — Meta
 2023 — Google through March 6
 Post-IPO companies accounted for the highest total layoffs by company stage.
-Project Files
+
+## Project Files
+
 layoffs_data_cleaning.sql — data import validation, cleaning, transformation, and quality checks
 layoffs_eda.sql — exploratory analysis, rankings, trends, funding validation, and additional analysis
-Acknowledgment
+
+## Acknowledgment
 
 This project was originally completed as a guided SQL portfolio exercise based on an Alex The Analyst tutorial. I later revisited the project to refresh my SQL skills, correct the dataset import, strengthen the cleaning and validation process, improve the analysis, document my reasoning, and add original analytical questions.
