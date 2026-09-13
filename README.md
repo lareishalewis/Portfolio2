@@ -32,30 +32,36 @@ This project includes data cleaning, transformation, validation, SQL analysis, b
 
 ---
 
-### SQL Data Cleaning Project
-**Tools:** SQL
+### SQL Layoffs Data Cleaning & Exploratory Analysis
+**Tools:** MySQL, MySQL Workbench
 
-Cleaned and standardized a dataset using SQL techniques including duplicate identification, data standardization, staging tables, CTEs, window functions, and data transformation.
+Originally completed as a guided SQL project and later revisited and expanded to strengthen my SQL and analytical reasoning skills.
 
-This project represents prior SQL coursework that I am currently revisiting as I strengthen my SQL skills.
+During the project refresh, I identified an incomplete database import, reloaded and validated the full 2,361-record dataset, strengthened the data-cleaning process, and performed exploratory analysis using aggregations, CTEs, window functions, ranking, and conditional logic.
+
+I also added original analysis of industry layoff trends and investigated the structure of the funding data to avoid double-counting cumulative funding values.
+
+[View Project](01_SQL_Layoffs_Project/)
 
 ---
 
 ### Credit Default Prediction
 **Tools:** Python, Pandas, Scikit-learn
 
-Graduate level project exploring customer credit data and comparing predictive classification models.
+Graduate-level machine learning project exploring customer credit data and classification techniques to predict credit default.
 
-The project includes data preparation, exploratory analysis, model evaluation, and interpretation of results.
+This project reflects prior academic experience with Python-based data preparation, predictive modeling, model evaluation, and ensemble methods.
 
 ---
 
-### Travel Package Purchase Prediction
+### Travel Package Prediction
 **Tools:** Python, Pandas, Scikit-learn
 
-Graduate level project analyzing customer characteristics and purchase behavior to identify factors associated with travel package purchases.
+Graduate data science project examining customer characteristics and purchase behavior to predict travel package purchases.
 
-The project includes exploratory data analysis, predictive modeling, and business recommendations based on model findings.
+The analysis included data preparation, exploratory analysis, predictive modeling, and model evaluation.
+
+---
 
 ## Additional Academic Work
 
@@ -68,19 +74,17 @@ My graduate studies in Applied Data Science also included experience with:
 - Model evaluation
 - Statistical power analysis
 
-These projects remain in this repository as examples of my broader academic experience, although my current professional development focus is SQL, Python, and data visualization.
+These projects represent earlier academic experience, while my current portfolio projects reflect the skills I am actively refreshing and strengthening.
 
-## About Me
+## About This Portfolio
 
-My background combines education, data analysis, problem solving, and communication. I am particularly interested in opportunities involving:
+This portfolio documents both previous academic work and current hands-on projects as I continue developing practical analytics skills.
 
-- Education Data Analytics
-- EdTech
-- Student Information Systems
-- Reporting and Business Intelligence
-- Data Quality
-- Business Systems Analysis
-- Assessment Data
+My current emphasis is on building projects that demonstrate the full data workflow:
+
+**Raw Data → Validation → Cleaning → Analysis → Visualization → Insights**
+
+I am especially interested in applying analytics to education, operations, reporting, data quality, and business decision-making.
 
 I enjoy translating complex information into practical insights that can support better decisions.
 
